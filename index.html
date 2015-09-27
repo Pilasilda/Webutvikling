@@ -1,27 +1,45 @@
 <!DOCTYPE>
 <html>
-<head> 
+<head>
+<title>
+Rørleggermester Nilsen
+</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
 <link rel="stylesheet" type="text/css" href="Style.css">
 </head> 
 
 
+<body>
+<div class="box">
+<nav>
+	<ul> 
+				<li><a href="index.html">Hjem</a></li>	
+				<li><a href="#">Tjenester</a></li>
+				<li><a href="#">Kontakt</a></li>
+				<li><a href="#">Om oss</a></li>
+	</ul>
+</nav>
+<img src="logo2.gif" alt=logo width="280" height="280"/>
 
-<body> 
+<article>
 
-
-<h1> 
-
-
-</h1> 
+</article>
 
 
 
 
 
-<footer> 
-&copy; Laget av Aatho
+<footer>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <div id="googleMap" style="width:200px;height:100px;"></div>
+<center>Copyright &copy; private policy</center>
 </footer> 
+</div>
 
 <script>
 function initialize()
@@ -33,7 +51,6 @@ function initialize()
   };
   var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
-
 function loadScript()
 {
   var script = document.createElement("script");
@@ -41,7 +58,6 @@ function loadScript()
   script.src = "http://maps.googleapis.com/maps/api/js?key=&sensor=false&callback=initialize";
   document.body.appendChild(script);
 }
-
 window.onload = loadScript;
 </script>
 </body> 
