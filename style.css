@@ -1,7 +1,101 @@
-footer { 
-	background-color:#700000 ;
-    color:white;
-    clear:both;
+/* Body* er dette lov?*/
+
+body {
+    background-image: url("bakgrunn.jpg");
+}
+
+img{
+	 margin-top:-600px;
+	 float:top; 
+	 padding:150px;
+}
+
+/* Box  */
+.box{
+	padding-top:10px;
+	padding-bottom:10px;
     text-align:center;
-    padding:40px;
+	background-color: #F2F2F2; 
+    padding:10px;
+	margin:150px;
+    border-style:solid;
+	border-color:black;
+	box-shadow: 5px 5px 5px #888888;
+	width:1000px;
+	height:600px;
+	float:center;
+}
+
+
+/*Navigasjon*/ 
+nav{
+	height:100px;
+	padding-top:10px;
+	padding-bottom:10px;
+    text-align:center;
+	background-color: #F2F2F2; 
+    text-align:center;
+    padding:5px;
+	margin:120px;
+	float:center;
+}
+nav a {
+	
+	padding-left:62px;
+	padding-right:32px;
+	text-decoration:none;
+	line-height:60px;
+	font-size:18px;
+}
+a:hover{
+	color:#D8D8D8;
+}
+
+ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;	
+}
+
+ul li { 
+    display:block; 
+	position:relative;
+	float:left;
+	border: 0px solid #000
+}
+	
+
+ul li a { 
+    display:block; 
+	text-decoration:none;
+	white-space:nowrap;
+	width:90px;
+	color:black;
+}
+
+li:hover ul {
+	display:block; 
+	position:absolute;
+}
+
+article{
+	text-align:center;
+	color:black;
+	font-size:20px;
+	border-style:solid;
+	border-color:#F2F2F2;
+	padding:3px;
+	margin:5px;
+	
+}
+
+/*Footer*/ 
+
+footer { 
+    background-color: #F2F2F2;
+    color:black;
+    text-align:center;
+    padding:5px;
+	margin:5px;
+	height:2px;
 }
