@@ -22,7 +22,7 @@ img{
 	border-color:black;
 	box-shadow: 5px 5px 5px #888888;
 	width:1000px;
-	height:600px;
+	height:800px;
 	float:center;
 }
 
@@ -91,14 +91,11 @@ article{
 /*Footer*/ 
 
 footer { 
-    background-color: #F2F2F2;
+    background-color: none;
     color:black;
     text-align:center;
     padding:5px;
 	margin:5px;
 	height:2px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 43a8b0c951fea71c0aecdc648ea3c2cb4e0504c3
+
