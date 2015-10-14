@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel> 
+<title> Rørleggernilsen hovedside</title>
+<link>file:///C:/temp/VAIO%20Links/web/index.html</link> 
+<description>Rørlegger nilsen</description>
+<item> 	
+	<title> Rørleggernilsen; tjenester</title>
+	<link># Legg inn link til tjenester</link> 
+	<description>Rørlegger nilsens tjenester</description>
+</item> 
+<item> 	
+	<title> Rørleggernilsen; kontakt</title>
+	<link># Legg inn link til kontat</link> 
+	<description>Rørlegger nilsens kontakt</description>
+</item> 
+<item> 	
+	<title> Rørleggernilsen; Om oss</title>
+	<link># Legg inn link til Om oss</link> 
+	<description>Rørlegger nilsens Om oss</description>
+</item> 
+</channel> 
+</rss> 
+
