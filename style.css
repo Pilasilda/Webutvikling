@@ -1,9 +1,14 @@
 img{
-	 margin-top:-700px;
+	 margin-top:-720px;
 	 float:top; 
 	 padding:270px;
 }
 
+IMG.displayed {
+	padding-left:190px;
+	display:block;
+	
+}
 
 body{
 	background-color: white; 
@@ -105,8 +110,6 @@ footer {
     background-color: none;
     color:black;
     text-align:center;
-    padding:5px;
-	margin:5px;
-	height:2px;
+	bottom:0;
 }
 

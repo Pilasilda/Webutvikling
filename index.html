@@ -6,25 +6,7 @@ Rørleggermester Nilsen
 </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
 <link rel="stylesheet" type="text/css" href="style.css">
-
 <script>
-function initialize()
-{
-  var mapProp = {
-    center: new google.maps.LatLng(59.13376,11.35936),
-    zoom:7,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
-  };
-  var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-function loadScript()
-{
-  var script = document.createElement("script");
-  script.type = "text/javascript";
-  script.src = "http://maps.googleapis.com/maps/api/js?key=&sensor=false&callback=initialize";
-  document.body.appendChild(script);
-}
-window.onload = loadScript;
 </script>
 </head> 
 
@@ -54,6 +36,35 @@ window.onload = loadScript;
 <br>
 <br>
 <br>
+
+<script type="text/javascript">
+<!-->
+var image1=new Image()
+image1.src="bad.jpg"
+var image2=new Image()
+image2.src="kjokken.jpg"
+var image3=new Image()
+image3.src="tette.jpg"
+var image4=new Image()
+image4.src="ror.jpg"
+</script>
+</head>
+<body>
+<br>
+<br>
+<IMG class="displayed" src="bad.jpg" name="slide" width="650" height="350">
+<script type="text/javascript">
+var step=1
+function slideit(){
+document.images.slide.src=eval("image"+step+".src")
+if(step<4)
+step++
+else 
+step=1
+setTimeout("slideit()",4500)
+}
+slideit()
+</script> 
 <br>
 <br>
 <br>
@@ -65,10 +76,9 @@ window.onload = loadScript;
 <br>
 <br>
 
-<article>
-<div id="googleMap" style="width:200px;height:100px;"></div>
-</article>
-
+<a href="RSSfeed.xml">
+<img src="rss.gif" width="36" height="36">
+</a>
 <footer>
 <center>Copyright &copy; private policy</center>
 </footer> 
